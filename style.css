@@ -1,0 +1,65 @@
+/* Убираем стандартные отступы и задаем бокс-сайзинг */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Подключаем шрифты */
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('fonts/Ubuntu-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+}
+
+/* Стили для body */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Стили для Хэдера / навигации */
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+}
+
+.container_nav {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1260px;
+}
+
+/* Убираем стандартный стиль списка */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
