@@ -40,20 +40,37 @@ body {
 
 /* Стили для Хэдера / навигации */
 
+.site_container {
+    overflow: hidden
+}
+
 .header {
-    display: flex;
-    align-items: center;
+    padding-top: 23px;
+    padding-bottom: 21px
 }
 
-.nav_list {
-    display: flex;
-    align-items: center;
+.header_main {
+    background-color: #f0f0f0
 }
 
-.container_nav {
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.header__nav {
+    margin-left: -112px
+}
+
+.container {
     margin: 0 auto;
     padding: 0 15px;
-    max-width: 1260px;
+    max-width: 1260px
+}
+
+.logo {
+    max-width: 100px
 }
 
 /* Убираем стандартный стиль списка */

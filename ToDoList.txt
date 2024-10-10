@@ -15,6 +15,7 @@
 #Бесплатный конструктор сайтов: https://tilda.cc/ru/ .
 
 *И да, это мой первый крупный проект на HTML, CSS и частично JS*
+Да-да в сайте используется JavaScript.
 
 Мой GitHub, куда залит этот проект - https://github.com/Ylham-Shadyew .
 
